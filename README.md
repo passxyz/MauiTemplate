@@ -19,23 +19,23 @@ This template includes the following features:
 
 ## LoginPage
 
-![loginpage](images\maui01.png)
+![loginpage](https://shugaoye.github.io/PassXYZ.MauiTemplate/images/maui01.png)
 
 ## AboutPage
 
-![aboutpage](images\maui02.png)
+![aboutpage](https://shugaoye.github.io/PassXYZ.MauiTemplate/images/maui02.png)
 
 ## Flyout menu
 
-![flyoutpage](images\maui03.png)
+![flyoutpage](https://shugaoye.github.io/PassXYZ.MauiTemplate/images/maui03.png)
 
 ## ItemsPage
 
-![itemspage](images\maui04.png)
+![itemspage](https://shugaoye.github.io/PassXYZ.MauiTemplate/images/maui04.png)
 
 ## NewItemPage
 
-![newitempage](images\maui05.png)
+![newitempage](https://shugaoye.github.io/PassXYZ.MauiTemplate/images/maui05.png)
 
 You can download Visual Studio project template (.NET MAUI) at:
 
