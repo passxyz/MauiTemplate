@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="PassXYZMauiTemplate.3cdde91a-24c2-4b94-a4a1-ef0971e30b12" Version="1.1" Language="en-US" Publisher="Roger Ye" />
+        <Identity Id="PassXYZMauiTemplate.3cdde91a-24c2-4b94-a4a1-ef0971e30b12" Version="1.2" Language="en-US" Publisher="Roger Ye" />
         <DisplayName>.NET MAUI MVVM App Template</DisplayName>
         <Description xml:space="preserve">.NET MAUI MVVM App Template for book - Modern Cross-Platform Application Development with .NET MAUI</Description>
         <MoreInfo>https://github.com/passxyz/MauiTemplate</MoreInfo>

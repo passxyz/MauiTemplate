@@ -40,3 +40,34 @@ This template includes the following features:
 You can download Visual Studio project template (.NET MAUI) at:
 
 [![.NET MAUI Project and Item Templates - VS Marketplace](https://badgen.net/vs-marketplace/v/shugaoye.maui)](https://marketplace.visualstudio.com/items?itemName=shugaoye.maui)
+
+## Build environment
+
+This template is built using Visual Studio Version 17.5.0 on Windows.
+
+## Build and Test on macOS
+
+I tested this template on macOS using Visual Studio for Mac Version 17.4.1. I cannot build and test using Visual Studio for Mac directly. We need to wait for a better .NET MAUI support in the future release. 
+
+However, it is possible to build and run from the command line.
+
+### Build and run as a Mac Catalyst app
+
+```
+dotnet build -t:Run -f net7.0-maccatalyst
+```
+
+### Build and run on iOS
+
+```
+dotnet build -t:Run -f net7.0-ios
+```
+
+## Known Issues
+
+There are two issues on iOS and macOS as below.
+
+- [iOS - CollectionView inside of RefreshView does not size correctly](https://github.com/dotnet/maui/issues/7315)
+- The display of flyout and menu in Shell looks not correct on macOS, please refer to the below screen
+
+![newitempage](https://shugaoye.github.io/PassXYZ.MauiTemplate/images/maui07.png)
