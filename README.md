@@ -54,18 +54,24 @@ However, it is possible to build and run from the command line.
 ### Build and run as a Mac Catalyst app
 
 ```
-dotnet build -t:Run -f net7.0-maccatalyst
+dotnet build -t:Run -f net8.0-maccatalyst
 ```
 
 ### Build and run on iOS
 
 ```
-dotnet build -t:Run -f net7.0-ios
+dotnet build -t:Run -f net8.0-ios
 ```
 
 ## Known Issues
 
-There are two issues on iOS and macOS as below.
+1. Xaml.Diagnostics.BindingDiagnostics Warning
+
+There is a warning that I haven't figured out how to resolve it. It may relate to this [issue 11956](https://github.com/dotnet/maui/issues/11956). Please refer to the below error in Visual Studio.
+
+![newitempage](https://shugaoye.github.io/PassXYZ.MauiTemplate/images/maui08.png)
+
+2. There are two issues on iOS and macOS as below.
 
 - [iOS - CollectionView inside of RefreshView does not size correctly](https://github.com/dotnet/maui/issues/7315)
 - The display of flyout and menu in Shell looks not correct on macOS, please refer to the below screen
